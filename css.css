@@ -50,6 +50,7 @@ body{
     
 
 }
+
 .we h1{
        font-family: sans-serif;
        font-size: 52px;
@@ -82,6 +83,7 @@ body{
       font-size: 12px;
       text-transform: uppercase;
       margin: 12px 0;
+      font-style: italic;
 }
 .team .team_member .team_img{
 
