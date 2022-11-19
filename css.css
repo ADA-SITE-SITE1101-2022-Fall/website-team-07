@@ -1,3 +1,33 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@Shamil16084 
+ADA-SITE-SITE1101-2022-Fall
+/
+website-team-07
+Public
+generated from ADA-SITE-SITE1101-2022-Fall/homework-3
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+Insights
+website-team-07/css.css
+@Sabir18123
+Sabir18123 Create css.css
+Latest commit 1b9d9d0 27 minutes ago
+ History
+ 1 contributor
+55 lines (49 sloc)  914 Bytes
+
 *{
    margin: 0;
    padding: 0;
@@ -7,10 +37,17 @@
 body{
       
       font-family: sans-serif;
+      background-image: url('https://github.com/ADA-SITE-SITE1101-2022-Fall/website-team-07/blob/main/media/ada_logo_color.png?raw=true');
+      
 
 }
 .we{
       margin-top: 10%;
+
+}
+#team{
+      color: rgb(33, 31, 42);
+    
 
 }
 .we h1{
@@ -53,3 +90,38 @@ body{
          border-radius: 50%;
 
 }
+
+.head{
+      text-align: center;
+      font-family: sans-serif;
+      background-color: #fff;
+      color: #8e8b8b;
+}
+#blog{
+      padding:20px;
+      text-align: center;
+      color: bisque;
+      font-family: sans-serif;
+      margin: auto;
+}
+.team_img{
+ 
+    width: 100px;
+    height: 100px;
+    background-size: 10px;
+}
+Footer
+© 2022 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+website-team-07/css.css at main · ADA-SITE-SITE1101-2022-Fall/website-team-07
