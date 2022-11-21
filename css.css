@@ -1,94 +1,140 @@
+ *{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
 
-   *{
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-   
-   }
-   body{
-         
-         font-family: sans-serif;
-         background-image: url('');
-         
-   
-   }
-   .we{
-         margin-top: 10%;
-   
-   }
-   #team{
-         color: rgb(33, 31, 42);
-       
-   
-   }
-   
-   .we h1{
-          font-family: sans-serif;
-          font-size: 52px;
-          text-align: center;
-          margin-bottom: 60px;
-   }
-   .team{
-         display: flex;
-         text-align: center;
-         width: auto;
-         justify-content: center;
-   }
-   .team .team_member{
-          background: #fff;
-          margin: 5px;
-          margin-bottom: 50px;
-          width: 300px;
-          padding: 20px;
-          line-height: 20px;
-          color: #8e8b8b;
-          position: relative;
-   }
-   .team .team_member h3{
-          color: black;
-          margin-top: 50px;
-             font-size: 26px;
-   }
-   
-   .team .team_member p.role{
-         color:  black;
-         font-size: 12px;
-         text-transform: uppercase;
-         margin: 12px 0;
-         font-style: italic;
-   }
-   .team .team_member .team_img{
-   
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-   
-   }
-   
-   .head{
-         text-align: center;
-         font-family: sans-serif;
-         background-color: rgb(91, 192, 148);
-         color: #152222;
-         font-weight: 700;
-        font-weight: strong;
-         
-   }
-   #blog{
-         padding:20px;
-         text-align: center;
-         color: rgb(54, 43, 30);
-         background-color: rgb(181, 180, 194);
-         font-family: sans-serif;
-         margin: auto;
-         font-size: large;
-         font-style: italic
-         
-   }
-   .team_img{
+}
+nav{
+      width: 100%;
+      height: 75px;
+      line-height: 75px;
+      padding: 0px 100px;
+      position: fixed;
+      background-image: linear-gradient(#033747,#012733);
+ 
+ }
+ nav .logo p{
+      font-size: 30px;
+      font-weight: bold;
+      float: left;
+      color:#fff;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      cursor: pointer;
+
+
+ }
+ nav ul{
+
+      float: right;
+ }
+ nav li{
+
+      display: inline-block;
+      list-style: none;
+ }
+ nav li a{ 
+      text-transform: uppercase;
+      font-size: 18px;
+      padding: 0px 30px;
+      color: #fff;
+      text-decoration: none;
+ }
+ nav li a:hover{
+      color: #ff8c69;
+      transition: all 0.4s ease 0s;
+
+ }
+
+body{
+      
+      font-family: sans-serif;
+      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSJDp6ncmGoKYPGU-LB4I5lUMq3wI4uZPL0Q&usqp=CAU');
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-attachment: fixed;
+
+}
+
+#team{
+      color: rgb(33, 31, 42);
     
-       width: 100px;
-       height: 100px;
-       background-size: 10px;
-   }
+
+}
+
+.we h1{
+       font-family: sans-serif;
+       font-size: 52px;
+       text-align: center;
+       margin-bottom: 60px;
+}
+.team{
+      display: flex;
+      text-align: center;
+      width: auto;
+      justify-content: center;
+}
+.team .team_member{
+       background: #fff;
+       margin: 5px;
+       margin-bottom: 50px;
+       width: 300px;
+       padding: 20px;
+       line-height: 20px;
+       color: #8e8b8b;
+       position: relative;
+}
+.team .team_member h3{
+       color: black;
+       margin-top: 50px;
+          font-size: 26px;
+}
+
+.team .team_member p.role{
+      color:  black;
+      font-size: 12px;
+      text-transform: uppercase;
+      margin: 12px 0;
+      font-style: italic;
+}
+.team .team_member .team_img{
+
+         width: 100px;
+         height: 100px;
+         border-radius: 50%;
+
+}
+
+.head{
+      text-align: center;
+      font-family: sans-serif;
+      background-color: #fff;
+      color: #8e8b8b;
+}
+#blog{
+     padding:20px;
+     text-align: center;
+     color: rgb(54, 43, 30);
+     background-color: rgb(181, 180, 194);
+     font-family: sans-serif;
+     margin: auto;
+     font-size: large;
+     font-style: italic
+     
+}
+.team_img{
+ 
+    width: 100px;
+    height: 100px;
+    background-size: 10px;
+}
+.nav{
+     width: 100%;
+     height: 75px;
+     line-height: 75px;
+     padding: 0px 100px;
+     position: fixed;
+     background-image: linear-gradient(#033747,#012733);
+
+}
       
