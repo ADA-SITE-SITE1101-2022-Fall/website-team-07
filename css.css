@@ -49,7 +49,7 @@ nav{
 body{
       
       font-family: sans-serif;
-      background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRSJDp6ncmGoKYPGU-LB4I5lUMq3wI4uZPL0Q&usqp=CAU');
+      background-color: cadetblue;
       background-repeat: no-repeat;
       background-size: cover;
       background-attachment: fixed;
@@ -58,8 +58,7 @@ body{
 
 #team{
       color: rgb(33, 31, 42);
-    
-
+  
 }
 
 .we h1{
@@ -136,5 +135,63 @@ body{
      position: fixed;
      background-image: linear-gradient(#033747,#012733);
 
+}
+.footer{
+     margin-top: 150px;
+     width: 100%;
+     padding: 100px 15%;
+     background:#333;
+     color: #efefef;
+     display: flex;
+}
+.footer div{
+     text-align: center;
+}
+.col-2{
+     flex-grow: 2;
+}
+.footer div h3{
+     font-weight: 300;
+     margin-bottom: 30px;
+     letter-spacing: 1px;
+}
+.col-1 a{
+     display: block;
+     text-decoration: none;
+     color: #efefef;
+     margin-bottom: 10px;
+}
+.form input{
+     width: 400px;
+     height: 45px;
+     border-radius: 4px;
+     text-align: center;
+     margin-top: 20px;
+     margin-bottom: 40px;
+     outline: none;
+     border: none;
+
+}
+.form button{
+     background: transparent;
+     border: 2px solid #fff;
+     color: #fff;
+     border-radius: 30px;
+     padding: 10px 30px;
+     font-size: 15px;
+     cursor: pointer;
+
+}
+.social-icons{
+     margin-top: 30px;
+}
+.social-icons i{
+    font-size: 22px;
+    margin: 10px;
+    cursor: pointer;
+    color: #efefef;
+}
+.col-3 p{
+     margin-bottom: 10px;
 }
       
