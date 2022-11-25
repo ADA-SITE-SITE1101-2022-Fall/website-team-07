@@ -57,7 +57,11 @@
   }
   
   #team{
-        color: rgb(33, 31, 42);
+        color: rgb(33, 42, 32);
+        background-color: rgb(177, 177, 188);
+     
+        font-family: cursive;
+        font-style: italic;
     
   }
   
