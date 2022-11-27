@@ -70,7 +70,7 @@
          font-family: sans-serif;
          font-size: 52px;
          text-align: center;
-         
+         margin-bottom: 50px;
        
   }
   
@@ -108,7 +108,20 @@
         margin: 12px 0;
         font-style: italic;
   }
-  
+  .team .team_member .team_img{
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     position: absolute;
+     top: -50px;
+     left: 50%;
+     transform: translateX(-50%);
+     background: #fff;
+  }
+  .team .team_member .team_img img{
+     width: 100px;
+     height: 100px;
+  }
   .head{
         text-align: center;
         font-family: sans-serif;
